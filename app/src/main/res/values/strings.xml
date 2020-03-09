@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="app_name_fa">My Application</string>
+
+    <string name="user_name">user</string>
+
+    <string name="menu_report">Musics</string>
+    <string name="menu_add_report">Add music</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_money">Money</string>
+
+    <string name="connection">Connecting...</string>
+
+    <string name="player_time">00:00:00</string>
+</resources>

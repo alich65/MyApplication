@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MenuTextView">
+        <item name="android:gravity">right|center</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="PlayerSeekbarTheme" parent="Widget.AppCompat.SeekBar" >
+        <item name="colorAccent">@color/playerSeekbarPrimary</item>
+    </style>
+
+</resources>

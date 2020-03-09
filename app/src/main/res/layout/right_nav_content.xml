@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txv_menu_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_menu_report"
+        android:text="@string/menu_report"
+        style="@style/MenuTextView"
+        android:background="?attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/txv_menu_add_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_menu_add_report"
+        android:text="@string/menu_add_report"
+        style="@style/MenuTextView"
+        android:background="?attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/txv_menu_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_menu_settings"
+        android:text="@string/menu_setting"
+        style="@style/MenuTextView"
+        android:background="?attr/selectableItemBackground" />
+
+    <TextView
+        android:id="@+id/txv_menu_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_menu_coin"
+        android:text="@string/menu_money"
+        style="@style/MenuTextView"
+        android:background="?attr/selectableItemBackground" />
+
+
+</LinearLayout>
